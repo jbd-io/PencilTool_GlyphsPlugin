@@ -3,7 +3,7 @@
 This is a plugin for the [Glyphs font editor](http://glyphsapp.com/) by Georg Seifert.
 It adds a custom Pencil Tool to Glyphs, allowing you to draw freely with a pencil-like interface in Edit View. After installation, it will add the tool to the toolbar with the icon *PencilTool.pdf*.
 
-![Using the Pencil Tool in Edit View.](PencilTool.png "PencilTool in action")
+![Tool preview](PencilToolCover.png "PencilTool cover")
 
 ### Installation
 
@@ -18,6 +18,8 @@ It adds a custom Pencil Tool to Glyphs, allowing you to draw freely with a penci
 3. Click and drag in the editor to draw paths freely.
 
 The tool works interactively, so you can create custom shapes directly on the glyph canvas.
+
+![Using the Pencil Tool in Edit View.](PencilTool.png "PencilTool in action")
 
 ### Pencil Tool Palette
 
