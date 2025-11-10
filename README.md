@@ -1,7 +1,9 @@
 # PencilTool
 
-This is a plugin for the [Glyphs font editor](http://glyphsapp.com/) by Georg Seifert.
-It adds a custom Pencil Tool to Glyphs, allowing you to draw freely with a pencil-like interface in Edit View. After installation, it will add the tool to the toolbar with the icon *PencilTool.pdf*.
+This is a plugin for the [Glyphs font editor](http://glyphsapp.com/) by Georg Seifert.  
+It adds a custom Pencil Tool to Glyphs, providing a natural, pencil-like drawing experience in Edit View.  
+The Pencil Tool features a realistic rough texture that mimics the irregular feel of a real pencil line, and lets you adjust both thickness and smoothing to match your preferred drawing style.  
+After installation, it will appear in the toolbar with a pencil icon.
 
 ![Tool preview](PencilToolCover.png "PencilTool cover")
 
