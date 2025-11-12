@@ -293,8 +293,6 @@ class Pencil(SelectTool):
 		except Exception as e:
 			print("Device detection failed:", e)
 
-		print("🖊️ Input device:", "Stylus" if self.usingStylus else "Mouse/Trackpad")
-
 		# Ajustement des paramètres en fonction du périphérique
 		if self.usingStylus:
 			self.minDistance = 2.0
