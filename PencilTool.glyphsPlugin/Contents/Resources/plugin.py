@@ -1,7 +1,7 @@
 # encoding: utf-8
 ###########################################################################################################
 #
-# Pencil Tool Plugin - v1.0.1 (fix: correctly display active toolbar icon when the tool is selected)
+# Pencil Tool Plugin - v1.0.2 (new: detects stylus input and adjusts drawing sensitivity)
 #
 ###########################################################################################################
 
@@ -276,6 +276,30 @@ class Pencil(SelectTool):
 		loc = view.getActiveLocation_(theEvent)
 		self.points = [loc]
 		self.lastPoint = loc
+
+		# --- Détection du type d'entrée ---
+		self.usingStylus = False
+		try:
+			if hasattr(theEvent, "pressure"):
+				pressure = theEvent.pressure()
+
+				if 0.0 < pressure < 1.0:
+					self.usingStylus = True
+			elif hasattr(theEvent, "tabletPointingDeviceType"):
+				devType = theEvent.tabletPointingDeviceType()
+				# 1 = Pen, 2 = Cursor, 3 = Eraser
+				if devType in (1, 3):
+					self.usingStylus = True
+		except Exception as e:
+			print("Device detection failed:", e)
+
+		print("🖊️ Input device:", "Stylus" if self.usingStylus else "Mouse/Trackpad")
+
+		# Ajustement des paramètres en fonction du périphérique
+		if self.usingStylus:
+			self.minDistance = 2.0
+		else:
+			self.minDistance = 4.0
 		view.setNeedsDisplay_(True)
 
 	def mouseDragged_(self, theEvent):
