@@ -1,11 +1,11 @@
 # ✏️ PencilTool (EN) 
 
+![Tool preview](PencilToolCover.png "PencilTool cover")
+
 This is a plugin for the [Glyphs font editor](http://glyphsapp.com/).  
 It adds a custom Pencil Tool to Glyphs, providing a natural, pencil-like drawing experience in Edit View.  
 The Pencil Tool features a **realistic rough texture** that mimics the irregular feel of a real pencil line, and lets you adjust both **thickness** and **smoothing** to match your preferred drawing style.  
 After installation, it will appear in the toolbar with a pencil icon.
-
-![Tool preview](PencilToolCover.png "PencilTool cover")
 
 
 ## Installation
@@ -65,13 +65,14 @@ This plugin is free to use. If it saves you time or makes your work easier, cons
 
 # ✏️ PencilTool (FR)
 
+![Aperçu de l’outil](PencilToolCover.png "Aperçu de PencilTool")
+
 PencilTool est une extension pour l’éditeur de polices [Glyphs](http://glyphsapp.com/).  
 Elle ajoute à Glyphs un outil Crayon personnalisé, offrant une expérience de dessin naturelle et intuitive dans la vue Édition.  
 L’outil Crayon reproduit une **texture réaliste et légèrement granuleuse**, qui imite les irrégularités d’un vrai trait de crayon.  
 Vous pouvez facilement ajuster **l’épaisseur** et le **lissage** du tracé afin d’adapter l’outil à votre style de dessin préféré.  
 Une fois installé, l’outil apparaît dans la barre d’outils avec une icône en forme de crayon.
 
-![Aperçu de l’outil](PencilToolCover.png "Aperçu de PencilTool")
 
 ## Installation
 
