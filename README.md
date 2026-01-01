@@ -2,7 +2,7 @@
 
 This is a plugin for the [Glyphs font editor](http://glyphsapp.com/) by Georg Seifert.  
 It adds a custom Pencil Tool to Glyphs, providing a natural, pencil-like drawing experience in Edit View.  
-The Pencil Tool features a realistic rough texture that mimics the irregular feel of a real pencil line, and lets you adjust both thickness and smoothing to match your preferred drawing style.  
+The Pencil Tool features a **realistic rough texture** that mimics the irregular feel of a real pencil line, and lets you adjust both **thickness** and **smoothing** to match your preferred drawing style.  
 After installation, it will appear in the toolbar with a pencil icon.
 
 ![Tool preview](PencilToolCover.png "PencilTool cover")
@@ -38,20 +38,20 @@ Using this palette, you can create both precise and expressive shapes directly o
 
 ### Requirements
 
-The plugin requires Glyphs 3.2 or higher. It may not work in earlier versions.
+The plugin requires **Glyphs 3.2 or higher**. It may not work in earlier versions.
 
 
 ### License
 
 Copyright 2025 Jean-Baptiste Dunesme
 
-Licensed under the Apache License, Version 2.0 (the "License");
+Licensed under the **Apache License, Version 2.0** (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-See the LICENSE file included in this repository for further details.
+See the **LICENSE** file included in this repository for further details.
 
 ---
 
